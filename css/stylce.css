@@ -416,6 +416,10 @@ img {
     font-weight: 700;
 }
 
+.contact_email .contact_title .title_content{
+    color: #eee;
+}
+
 .contact_email .contact_form{
     display: grid;
     grid-template-columns: 50px 1fr auto;
