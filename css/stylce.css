@@ -253,7 +253,137 @@ img {
     background: #F8F9FA;
 }
 
+.feedback_item {
+    display: block;
+    padding: 40px 30px;
+    position: relative;
+    max-width: 900px;
+}
+
+.feedback_item .feedback_line {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666;
+    opacity: 0.8;
+    margin-bottom: 1.5rem;
+    position: relative;
+}
+
+.feedback_item .feedback_img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.feedback_item .feedback_background {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+}
+
+.feedback_item .feedback_background .feedback_name h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* Owl Carousel Button */
+.owl-two.owl-theme .owl-dots .owl-dot{
+   padding: 0px 7px;
+} 
+
 /* News */
+.news{
+    background: #fff;
+}
+
+.news_content .news_item .card{
+    background: none;
+    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid transparent;
+}
+
+.news_content .news_item .card_top{
+    position: relative;
+}
+
+.news_content .news_item .card_top a{
+    overflow: hidden;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.news_content .news_item .card_body{
+    padding: 20px;
+}
+
+.news_content .news_item .card_body a.news_small{
+    font-size: 17px;
+    font-weight: 400;
+    color: #999;
+}
+
+.news_content .news_item .card_body a.news_desc{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #3f3a64;
+    transition: 0.5s all;
+}
+
+.news_content .news_item .card_body a.news_desc:hover{
+    color: #009f4d;
+}
+
+.news_content .news_item .card_bottom{
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 0.75rem 1.25rem;
+    /* align-items: center; */
+}
+
+.card_bottom .bottom_info{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 10px;
+}
+
+.card_bottom .bottom_info ul{
+    margin: 0;
+    padding: 0;
+}
+
+.card_bottom .bottom_info ul li{
+    display: inline-block;
+}
+
+.card_bottom .bottom_info ul li span{
+    color: #666;
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+.card_bottom .bottom_info ul li a{
+    font-size: 16px;
+    color: #3f3a64;
+    font-weight: 600;
+    line-height: 26px;
+    text-transform: capitalize;
+    transition: 0.5s all;
+}
+
+.card_bottom .card_date p{
+    font-size: 15px;
+    margin: 0;
+}
+
+.card_bottom .bottom_info ul li a:hover{
+    color: #009f4d;
+}
 
 /* Footer */
 
