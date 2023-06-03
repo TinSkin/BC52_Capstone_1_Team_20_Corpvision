@@ -309,6 +309,16 @@ img {
     position: relative;
 }
 
+.news_contant .card img{
+    transition: 0.3s ease-in-out;
+}
+
+.news_content .card:hover img{
+    overflow: hidden;
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
 .news_content .news_item .card_top a{
     overflow: hidden;
     border-top-left-radius: 6px;
